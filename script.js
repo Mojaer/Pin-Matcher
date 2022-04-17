@@ -8,7 +8,8 @@ document.getElementById('generateBtn').addEventListener('click', function() {
 
     if (generateInput.value == '') {
         alert('please Generate a Key');
-    } else { pinNumber = generateInput.value }
+    } else { generateInput.style.display = 'none';
+        pinNumber = generateInput.value }
 
 })
 
